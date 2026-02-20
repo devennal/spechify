@@ -1,6 +1,6 @@
 # General QA Questions
 **Question 1:** What are the key responsibilities of a QA Engineer in the software development lifecycle?
-**Answer 1:** <!-- <Write your answer here> -->
+**Answer 1:** <!-- <In fast-moving Agile teams, I embed QA early by reviewing requirements, identifying edge cases, and preparing structured test plans. I perform thorough manual and regression testing, use DevTools to reproduce issues, and document clear, actionable bugs in Jira. This proactive approach reduces production defects and ensures stable releases—critical for maintaining user trust in products like Speechify’s Web app.> -->
 
 **Question 2:** What do you think is more important for QA: finding bugs or preventing bugs? Why?
 **Answer 2:** <!-- <Write your answer here> -->
@@ -21,9 +21,7 @@
 **Answer 7:** <!-- <Write your answer here> -->
 
 **Question 8:** What is a test case, and what details should a good test case include?
-**Answer 8:** A test case includes:
-
-Test ID
+**Answer 8:** <!-- <Test ID
 
 Preconditions
 
@@ -37,7 +35,8 @@ Priority
 
 Evidence (if needed)
 
-Clarity ensures engineers can reproduce fast.
+Clarity ensures engineers can reproduce fast.> -->
+
 
 **Question 9:** Have you ever worked with tools for managing test documentation? Which ones, and how did you use them?
 **Answer 9:** <!-- <Write your answer here> -->

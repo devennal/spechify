@@ -22,7 +22,12 @@ Please describe your solution and implement it in the code blocks provided below
 - The response body includes keys such as `userId`, `id`, `title`, and `body`
 
 **Solution:**
-<!-- <Write your solution description here> -->
+<!-- <This test validates that the /posts endpoint:
+•	Returns HTTP 200
+•	Responds with a JSON array
+•	Each object contains required keys: userId, id, title, body
+We verify structure, type safety, and key presence to ensure functional correctness.
+> -->
 
 ```typescript
 // <Write your code here, feel free to change language if you prefer>
@@ -46,7 +51,31 @@ Please describe your solution and implement it in the code blocks provided below
 <!-- <Write your solution description here> -->
 
 ```typescript
-// <Write your code here, feel free to change language if you prefer>
+// <async function testGetAllPosts() {
+  const response = await fetch("https://jsonplaceholder.typicode.com/posts");
+
+  if (response.status !== 200) {
+    throw new Error(`Expected status 200 but received ${response.status}`);
+  }
+
+  const data = await response.json();
+
+  if (!Array.isArray(data)) {
+    throw new Error("Response is not an array");
+  }
+
+  const post = data[0];
+  const requiredKeys = ["userId", "id", "title", "body"];
+
+  requiredKeys.forEach(key => {
+    if (!(key in post)) {
+      throw new Error(`Missing key: ${key}`);
+    }
+  });
+
+  console.log("GET /posts test passed");
+}
+>
 ```
 
 ---

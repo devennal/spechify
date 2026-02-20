@@ -26,6 +26,23 @@ Use the following template for each test case:
 TODO: Your solution goes below
 <!-- <Write your solution here> -->
 
+<!-- <Test Case 1
+•	Test Case ID: TC-LOGIN-001
+•	Title: Successful login with valid credentials
+•	Pre-conditions: User has a registered and active account
+•	Test Steps:
+1.	Navigate to the login page
+2.	Enter valid username
+3.	Enter valid password
+4.	Click on “Login” button
+•	Expected Result: User is redirected to the dashboard/home page successfully
+•	Actual Result:
+•	Priority: High
+•	Remarks: Core positive login scenario
+> -->
+
+
+
 <!-- 
 ### Test Case 1 
 
